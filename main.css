@@ -1,0 +1,43 @@
+:root {
+    --cor1: #0b0432;
+    --cor2: #fff;
+
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bruno Ace', cursive;  
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.titulo-nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--cor2);
+}
