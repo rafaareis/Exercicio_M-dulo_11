@@ -75,3 +75,19 @@ let produtosFem = produtosObj.map(function(produtoFem) {
 
 document.querySelector('.produtos-fem').innerHTML = produtosFem.join("");
 
+let produtosMasc = produtosObj.map(function(produtoMasc) {
+    if(produtoMasc.gender === 'M') {
+        return `
+                <div class="produto-masc">
+                    <img src="${produtoMasc.img}" alt="Foto de ${produtoMasc.name}" />
+                    <h3>${produtoMasc.name}</h3>
+                    <div class="price">
+                        <span>${produtoMasc.price}</span>
+                    </div>
+                    <button type="button">Adicionar ao carrinho</button>
+                </div>
+                `;  
+    }
+})
+
+document.querySelector('.produtos-masc').innerHTML = produtosMasc.join("");
