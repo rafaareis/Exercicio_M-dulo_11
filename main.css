@@ -73,7 +73,8 @@ nav li a:hover {
 
 .about-div h2,
 .products-div-fem h2,
-.products-div-masc h2 {
+.products-div-masc h2,
+.social-network h2 {
     border-bottom: 2.5px solid var(--cor1);
 }
 
