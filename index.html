@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
+    <!-- Slick: Tag Head Importar CSS-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Shoes Store</title>
 </head>
 <body>
@@ -41,8 +44,8 @@
                 <div class="social-network">
                     <h2>Contato</h2>
                     <h3>Acesse as nossas redes sociais!</h3>
-                    <div class="contacts">
-                    </div>
+                    <ul class="contacts" id="contactsId">
+                    </ul>
                 </div>
             </section>
             <section id="products">
@@ -64,9 +67,17 @@
                 <p>2023 - &copy; Shoes Store - Todos os direitos reservados</p>
         </footer>
     </main>
-    
+
+<!-- Importar Jquery -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- Importar Slick(JS) -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
 <script src="menu.js"></script>
 <script src="produtos.js"></script>
 <script src="contacts.js"></script>
+<script src="carousel.js"></script>
 </body>
 </html>
