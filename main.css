@@ -35,6 +35,11 @@ body {
 header {
     background-color: var(--cor1);
     color: var(--cor2);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container {
@@ -44,11 +49,44 @@ header {
     padding-bottom: 10px;
 }
 
+.subMenu {
+    display: none;
+    border: 3px solid var(--cor2);
+    background-color: var(--cor1);
+    position: absolute;
+    left: 0;
+    width: 250px;
+    top: 100%;
+}
+
+.subMenu li {
+    display: block;
+    padding: 8px;
+    font-size: 10px;
+}
+
+
+.nav li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    border-top: 4px solid transparent;
+    position: relative;
+}
+
+.nav li:hover .subMenu{
+    display: block; 
+}
+
 .titulo-nav {
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav {
+    display: none;
 }
 
 nav li {
@@ -64,6 +102,57 @@ nav li a {
 
 nav li a:hover {
     color: var(--cor3);
+}
+
+.menu-closed {
+    display: none;
+}
+
+.version {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.version li {
+    display: inline;
+
+}
+
+
+.model {
+    height: 80px;
+    padding: 30px;
+}
+
+.model h4 {
+    padding-top: 10px;
+}
+
+.model i {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
+#Desktop {
+    display: flex;
+}
+
+.model-version h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tablet,
+#Mobile {
+    display: none;
 }
 
 .image {
@@ -204,7 +293,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 1.5em;
     width: 1.5em;
     border-radius: 50%;

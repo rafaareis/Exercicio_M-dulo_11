@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css" integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <!-- Slick: Tag Head Importar CSS-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -18,14 +19,21 @@
     <header>
         <div class="container">
             <div class="titulo-nav">
-                <h1>Shoes Store</h1>
-                <nav>
-                    <div class="nav">
-                        <ul>
-
-                        </ul>
+                <div id="menu-situation" class="off">
+                    <div class="menu-hamburger">
+                        <i class="fa-solid fa-bars fa-xl"></i> 
                     </div>
+                    <div class="menu-closed">
+                        <i class="fa-solid fa-xmark fa-xl"></i> 
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav">                       
+                    </ul>
                 </nav>
+                <h1>Shoes Store</h1>
+                <div class="version">
+                </div>
             </div>
         </div>
     </header>
@@ -49,13 +57,13 @@
                 </div>
             </section>
             <section id="products">
-                <div class="products-div-fem">
+                <div class="products-div-fem" id="fem">
                     <h2>Produtos</h2>
                     <h3>Moda Feminina</h3> 
                 </div>
                 <div class="produtos-fem"> 
                 </div>
-                <div class="products-div-masc">
+                <div class="products-div-masc" id="masc">
                     <h2>Produtos</h2>
                     <h3>Moda Masculina</h3> 
                 </div>
@@ -79,5 +87,6 @@
 <script src="produtos.js"></script>
 <script src="contacts.js"></script>
 <script src="carousel.js"></script>
+<script src="version.js"></script>
 </body>
 </html>
