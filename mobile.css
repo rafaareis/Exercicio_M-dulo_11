@@ -1,0 +1,104 @@
+@media screen and (max-width: 667px) {
+
+.titulo-nav {
+    display: grid;
+    grid-template-columns: 14% 53% 29%;
+    margin: 2px;
+}
+
+#menu-situation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-nav h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.version {
+    max-width: 100px;
+    width: 100%;
+}
+
+.version li {
+    display: block;
+}
+
+.model-version h3 {
+    text-align: center;
+}
+
+
+.model {
+    height: 50px;
+    padding: 10px;
+}
+
+.model h4 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.nav li {
+    font-size: 10px;
+}
+
+.subMenu {
+    display: none;
+    top: 100%;
+    width: 125px;
+    position: absolute;
+    border: 3px solid var(--cor2);
+    background-color: var(--cor1);
+}
+
+
+#Mobile {
+    display: block;
+}
+
+#Desktop,
+#Tablet {
+    display: none;
+}
+
+.image {
+    display: block;
+}
+
+.image img {
+    padding: 10px;
+}
+
+.about-div p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.produtos-fem,
+.produtos-masc {
+    display: block;
+}
+
+.produto-fem,
+.produto-masc {
+    max-width: 375px;
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+
+.produto-fem img,
+.produto-masc img {
+    max-width: 375px;
+    width: 100%;
+    padding: 10px 37.5px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+}
