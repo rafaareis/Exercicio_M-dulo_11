@@ -24,7 +24,22 @@ $(document).ready(function() {
         autoplaySpeed: 2000,
         slidesToShow: 5,
         slidesToScroll: 4,
-        infinite: true
+        infinite: true,
+        responsive: [
+            {
+                breakpoint: 668,
+                settings: {
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+
+            },
+        ]
     });
+
+
 })
 
