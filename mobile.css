@@ -72,6 +72,10 @@
     padding: 10px;
 }
 
+.about-div {
+    margin-left: 0;
+}
+
 .about-div p {
     padding: 10px;
     text-align: justify;

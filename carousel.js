@@ -35,7 +35,6 @@ $(document).ready(function() {
                     slidesToScroll: 1,
                     infinite: true
                 }
-
             },
         ]
     });

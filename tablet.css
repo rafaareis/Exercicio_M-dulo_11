@@ -1,0 +1,107 @@
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+
+    .titulo-nav {
+        display: grid;
+        grid-template-columns: 24% 48% 24%;
+        margin: 2px;
+    }
+
+    #menu-situation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-nav h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Tablet {
+        display: block;
+    }
+
+    #Desktop,
+    #Mobile {
+        display: none;
+    }
+
+    .version {
+        max-width: 100px;
+        width: 100%;
+    }
+
+    .version li {
+        display: block;
+    }
+
+    .model-version h3 {
+        text-align: center;
+    }
+
+    .model {
+        height: 50px;
+        padding: 10px;
+    }
+
+    .image {
+        display: block;
+    }
+
+    .image img {
+        padding: 10px 30px;
+        display: flex;
+        max-width: 850px;
+    }
+
+    .about-div {
+        margin-left: 0;
+    }
+
+
+    .about-div p {
+        padding:  10px 30px;
+        text-align: justify;
+    }
+    
+    .produtos-fem,
+    .produtos-masc {
+        display: grid;
+        grid-template-columns: repeat(2, 49.5%);
+        padding-top: 10px;
+    }
+
+    .produto-fem,
+    .produto-masc {
+        height: 400px;
+        width: 400px;
+        padding: 10px;
+    }
+
+    .produto-fem img,
+    .produto-masc img {
+        max-width: 400px;
+        width: 100%;
+        padding: 10px 50px;
+}
+
+.subMenu {
+    display: none;
+    top: 100%;
+    width: 200px;
+    font-size: 30px;
+    position: absolute;
+    border: 3px solid var(--cor2);
+    background-color: var(--cor1);
+}
+
+.subMenu li a {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+}
+
